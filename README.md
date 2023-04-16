@@ -83,9 +83,9 @@
 
 ## 安装
 
-`git clone https://github.com/Joeyicheng/SeMask-Mask2Former.git`
+```git clone https://github.com/Joeyicheng/SeMask-Mask2Former.git```
 
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 
 ## 模型训练与测试
