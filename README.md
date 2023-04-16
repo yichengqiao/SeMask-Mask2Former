@@ -82,6 +82,11 @@
 
 ## 安装
 
+`git clone https://github.com/Joeyicheng/SeMask-Mask2Former.git`
+
+`pip install -r requirements.txt`
+
+
 ## 模型训练与测试
 
 使用`train.ipynb`、`train_vaihingen.ipynb`和`train_potsdam-old.ipynb`进行模型的训练。测试过程可参考`test_vaihingen.ipynb`。
