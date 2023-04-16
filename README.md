@@ -1,5 +1,6 @@
 # SeMask-Mask2Former：A Semantic Segmentation Model for High Resolution Remote Sensing Images
 这个项目是一个基于potsdam数据集的遥感图像语义分割模型，名为SeMask-Mask2Former。以下是项目的目录结构和简要说明。
+
 .
 ├─ .ipynb_checkpoints
 
