@@ -141,6 +141,8 @@ Use `train.ipynb`, `train_vaihingen.ipynb`, and `train_potsdam-old.ipynb` for mo
 
 Enjoy using the project!
 ## citation
+If you find this project helpful for your research, please consider citing the report and giving a ⭐.
+```BibTex
 @INPROCEEDINGS{10115761,
   author={Qiao, Yicheng and Liu, Wei and Liang, Bin and Wang, Pengyun and Zhang, Haopeng and Yang, Junli},
   booktitle={2023 IEEE Aerospace Conference}, 
@@ -151,3 +153,4 @@ Enjoy using the project!
   pages={1-6},
   doi={10.1109/AERO55745.2023.10115761}
 }
+```
