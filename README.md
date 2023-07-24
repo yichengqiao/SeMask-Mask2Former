@@ -140,3 +140,14 @@ Please refer to `INSTALL.md` and `GETTING_STARTED.md` for project installation a
 Use `train.ipynb`, `train_vaihingen.ipynb`, and `train_potsdam-old.ipynb` for model training. For testing, refer to `test_vaihingen.ipynb`.
 
 Enjoy using the project!
+## citation
+@INPROCEEDINGS{10115761,
+  author={Qiao, Yicheng and Liu, Wei and Liang, Bin and Wang, Pengyun and Zhang, Haopeng and Yang, Junli},
+  booktitle={2023 IEEE Aerospace Conference}, 
+  title={SeMask-Mask2Former: A Semantic Segmentation Model for High Resolution Remote Sensing Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/AERO55745.2023.10115761}
+}
