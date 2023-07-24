@@ -54,6 +54,9 @@ If you find this project helpful for your research, please consider citing the r
   doi={10.1109/AERO55745.2023.10115761}
 }
 ```
+## Contribute
+I am grateful for the contributions made by Wei Liu, Bin Liang, and Pengyun Wang towards this project. This is our joint work.
+
 # 中文版本：
 # SeMask-Mask2Former：A Semantic Segmentation Model for High Resolution Remote Sensing Images
 这个项目是一个基于potsdam数据集的遥感图像语义分割模型，名为SeMask-Mask2Former。以下是项目的目录结构和简要说明。
