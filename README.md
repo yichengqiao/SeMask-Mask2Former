@@ -154,3 +154,17 @@ pip install -r requirements.txt
 使用`train.ipynb`、`train_vaihingen.ipynb`和`train_potsdam-old.ipynb`进行模型的训练。测试过程可参考`test_vaihingen.ipynb`。
 
 祝您使用愉快！
+## 引用
+如果你觉得这个项目对你的研究有帮助，请考虑引用报告，并给出一个 ⭐.
+```BibTex
+@INPROCEEDINGS{10115761,
+  author={Qiao, Yicheng and Liu, Wei and Liang, Bin and Wang, Pengyun and Zhang, Haopeng and Yang, Junli},
+  booktitle={2023 IEEE Aerospace Conference}, 
+  title={SeMask-Mask2Former: A Semantic Segmentation Model for High Resolution Remote Sensing Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/AERO55745.2023.10115761}
+}
+```
