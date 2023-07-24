@@ -1,3 +1,60 @@
+# English Version:
+# SeMask-Mask2Former：A Semantic Segmentation Model for High Resolution Remote Sensing Images
+
+
+This project presents a semantic segmentation model for high-resolution remote sensing images called SeMask-Mask2Former, based on the potsdam dataset. Below is the directory structure and a brief description of the project.
+
+
+## File and Folder Descriptions
+
+- `.ipynb_checkpoints`: Jupyter Notebook checkpoint folder.
+- `configs`: Contains model configuration files.
+- `data`: Contains dataset and preprocessing-related files.
+- `datasets`: Contains code related to dataset processing.
+- `demo`: Contains demo files.
+- `output`: Contains output results from training and testing.
+- `tools`: Contains auxiliary tools.
+- `eval.sh`: Evaluation script.
+- `GETTING_STARTED.md`: Getting started guide.
+- `INSTALL.md`: Installation guide.
+- `kill_inpynb.checkpoint.py`: Jupyter Notebook processing file.
+- `mmcv.ipynb`: MMCV library usage example.
+- `MODEL_ZOO.md`: Model zoo description.
+- `README.md`: Project readme file.
+- `register_data.ipynb`: Dataset registration file.
+- `requirements.txt`: List of Python packages required for the project.
+- `test_vaihingen.ipynb`: Test file for the Vaihingen dataset.
+- `train.ipynb`: Jupyter Notebook file for training.
+- `train.sh`: Training script.
+- `train_ipynb.txt`: Training text file.
+- `train_net.py`: Main code for network training.
+- `train_potsdam-old.ipynb`: Training file for the old version of the Potsdam dataset.
+- `train_vaihingen.ipynb`: Training file for the Vaihingen dataset.
+
+## Quick Start
+
+Please refer to `INSTALL.md` and `GETTING_STARTED.md` for project installation and configuration.
+
+## Model Training and Testing
+
+Use `train.ipynb`, `train_vaihingen.ipynb`, and `train_potsdam-old.ipynb` for model training. For testing, refer to `test_vaihingen.ipynb`.
+
+Enjoy using the project!
+## citation
+If you find this project helpful for your research, please consider citing the report and giving a ⭐.
+```BibTex
+@INPROCEEDINGS{10115761,
+  author={Qiao, Yicheng and Liu, Wei and Liang, Bin and Wang, Pengyun and Zhang, Haopeng and Yang, Junli},
+  booktitle={2023 IEEE Aerospace Conference}, 
+  title={SeMask-Mask2Former: A Semantic Segmentation Model for High Resolution Remote Sensing Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/AERO55745.2023.10115761}
+}
+```
+# 中文版本：
 # SeMask-Mask2Former：A Semantic Segmentation Model for High Resolution Remote Sensing Images
 这个项目是一个基于potsdam数据集的遥感图像语义分割模型，名为SeMask-Mask2Former。以下是项目的目录结构和简要说明。
 
@@ -97,60 +154,3 @@ pip install -r requirements.txt
 使用`train.ipynb`、`train_vaihingen.ipynb`和`train_potsdam-old.ipynb`进行模型的训练。测试过程可参考`test_vaihingen.ipynb`。
 
 祝您使用愉快！
-
-# English Version:
-
-# SeMask-Mask2Former: A Semantic Segmentation Model for High-Resolution Remote Sensing Images
-
-This project presents a semantic segmentation model for high-resolution remote sensing images called SeMask-Mask2Former, based on the potsdam dataset. Below is the directory structure and a brief description of the project.
-
-
-## File and Folder Descriptions
-
-- `.ipynb_checkpoints`: Jupyter Notebook checkpoint folder.
-- `configs`: Contains model configuration files.
-- `data`: Contains dataset and preprocessing-related files.
-- `datasets`: Contains code related to dataset processing.
-- `demo`: Contains demo files.
-- `output`: Contains output results from training and testing.
-- `tools`: Contains auxiliary tools.
-- `eval.sh`: Evaluation script.
-- `GETTING_STARTED.md`: Getting started guide.
-- `INSTALL.md`: Installation guide.
-- `kill_inpynb.checkpoint.py`: Jupyter Notebook processing file.
-- `mmcv.ipynb`: MMCV library usage example.
-- `MODEL_ZOO.md`: Model zoo description.
-- `README.md`: Project readme file.
-- `register_data.ipynb`: Dataset registration file.
-- `requirements.txt`: List of Python packages required for the project.
-- `test_vaihingen.ipynb`: Test file for the Vaihingen dataset.
-- `train.ipynb`: Jupyter Notebook file for training.
-- `train.sh`: Training script.
-- `train_ipynb.txt`: Training text file.
-- `train_net.py`: Main code for network training.
-- `train_potsdam-old.ipynb`: Training file for the old version of the Potsdam dataset.
-- `train_vaihingen.ipynb`: Training file for the Vaihingen dataset.
-
-## Quick Start
-
-Please refer to `INSTALL.md` and `GETTING_STARTED.md` for project installation and configuration.
-
-## Model Training and Testing
-
-Use `train.ipynb`, `train_vaihingen.ipynb`, and `train_potsdam-old.ipynb` for model training. For testing, refer to `test_vaihingen.ipynb`.
-
-Enjoy using the project!
-## citation
-If you find this project helpful for your research, please consider citing the report and giving a ⭐.
-```BibTex
-@INPROCEEDINGS{10115761,
-  author={Qiao, Yicheng and Liu, Wei and Liang, Bin and Wang, Pengyun and Zhang, Haopeng and Yang, Junli},
-  booktitle={2023 IEEE Aerospace Conference}, 
-  title={SeMask-Mask2Former: A Semantic Segmentation Model for High Resolution Remote Sensing Images}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-6},
-  doi={10.1109/AERO55745.2023.10115761}
-}
-```
